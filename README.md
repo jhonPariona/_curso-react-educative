@@ -14,3 +14,11 @@
 ## Renderizado condicional
 
 [Renderizado condicional](./conditional-rendering/README.md)
+
+## Desestructuracion
+
+[Desestructuracion](./destructuring/README.md)
+
+## Spread operator
+
+[operador de propagacion](./spread-operator/README.md)
