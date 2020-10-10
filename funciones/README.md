@@ -2,7 +2,7 @@
 
 # Funciones anónimas(Anonymous) y funciones nombradas(Named)
 
-Funciones anónimas se declaran en tiempo de ejecución, primero devemos de declararlas para usarlas.
+Funciones anónimas(omite el nombre de la funcion despues de la palabra clave function) se declaran en tiempo de ejecución, primero devemos de declararlas para usarlas.
 ```js
 var myFunction = function()
 {
@@ -12,7 +12,7 @@ var myFunction = function()
 myFunction();
 ```
 
-Named function pueden ser llamadas incluso antes de ser declaradas.
+Named function(usan un nombre pdespues de la palabra clave function) pueden ser llamadas incluso antes de ser declaradas. Es más recomendable usar estas ya que ayuda a la identificar más facil en que funcion ocurrio el error.
 ```js
 function myFunction()
 {
@@ -23,6 +23,20 @@ myFunction();
 ```
 
 > Cada tipo de funciones controla como este interactua con los componentes externos, su scope, el contexto,... A continuación se muestras los tipos en javascript
+
+ 
+## Arrow function
+Sintax sugar, el valor de this apuntara a el mismo, si solo se retorna una cosa se puede omitir `{}` y si solo se pasa un parámetro tambien puede omitir los `()`
+
+```js
+// JavaScript ES6 arrow function with body
+const getGreetingArrow1 = () => {
+  return 'Welcome to JavaScript';
+}
+
+// JavaScript ES6 arrow function without body and implicit return
+const getGreetingArrow2 = () => 'Welcome to JavaScript';
+```
 
 ## Function Declaration
 Este método usa hosting es decir que se puede usar antes de declararlo.
@@ -61,13 +75,7 @@ function* fName(){}
  function* (){}
  ```
  
- 
-## Arrow function
-Sintax sugar, el valor de this apuntara a el mismo, si solo se retorna una cosa se puede omitir `{}` y si solo se pasa un parámetro tambien puede omitir los `()`
 
-```js
-var varName = (parametros) => {return()};
-```
 
 ## Function constructor
 
