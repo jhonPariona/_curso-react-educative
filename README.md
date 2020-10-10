@@ -4,6 +4,20 @@
 
 [⚛️ JavaScript Fundamentals Before Learning React](https://www.educative.io/courses/javascript-fundamentals-before-learning-react)
 
+```jsx
+import React from 'react';
+
+export default class App extends React.Component {
+  //métodos, state, constructor
+  render() {
+    //Javascript
+    return (
+      //jsx, {}
+    );
+  }
+}
+```
+
 ## Alcance Variables js
 
 - **var** Scope dentro de la funcion que se declara.
