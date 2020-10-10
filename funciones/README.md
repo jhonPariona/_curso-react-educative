@@ -93,7 +93,7 @@ var varName = new Function(parametros, 'FunctionBodyStaring');
 ```jsx
 //...
 
-//puedo usar el estado q recibe y modificar el estado
+//puedo usar el estado q recibe y modificar el estado y puedo exportarlas para probarlas(jest, ...)
 export const doIncrement = state =>
   ({ counter: state.counter + 1 });
 
