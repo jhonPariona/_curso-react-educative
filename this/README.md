@@ -101,6 +101,22 @@ newPrintName();
 printName();
 ```
 
+Si tenemos un funcion dentro de un objeto js
+
+```js
+let me = {
+  name: "Robin",
+  getName: function(){
+    console.log(this.name);
+  }
+}
+
+let getMyName = me.getName.bind(me); //usamos bind por q nos devuelve una fx
+getMyName();
+
+me.getName(); //esto da undefined error
+```
+
 ## Nuevo bind
 Podemos establecer el bind dentro de la funcion independiente como si fuera un constructor. no serviria para objetos solo para funciones
 ```js
