@@ -1,6 +1,6 @@
 # Funciones
 
-# Funciones anónimas(Anonymous) y funciones nombradas(Named)
+## Funciones anónimas(Anonymous) y funciones nombradas(Named)
 
 Funciones anónimas(omite el nombre de la funcion despues de la palabra clave function) se declaran en tiempo de ejecución, primero devemos de declararlas para usarlas.
 ```js
@@ -83,4 +83,46 @@ Este tipo no es recomendado ya que podria suponer problemas de seguridad, es usa
 
 ```js
 var varName = new Function(parametros, 'FunctionBodyStaring');
+```
+
+
+# Hig-Order Functions
+
+> una función de orden superior es una función que devuelve una función, Permite probar el estado de manera independiente.
+
+```jsx
+//...
+
+//puedo usar el estado q recibe y modificar el estado
+export const doIncrement = state =>
+  ({ counter: state.counter + 1 });
+
+export const doDecrement = state =>
+  ({ counter: state.counter - 1 });
+
+export default class Counter extends React.Component {
+  state = {
+    counter: 0,
+  };
+
+  onIncrement = () => {
+    this.setState(doIncrement);
+  }
+
+  onDecrement = () => {
+  //en vez de modificar de frente el estado le paso una funcion set stare le va mandar el estado previo implicitamente
+    this.setState(doDecrement);
+  }
+
+  render() {
+    return (
+      <div>
+        <p>{this.state.counter}</p>
+
+        <button onClick={this.onIncrement} type="button">Increment</button>
+        <button onClick={this.onDecrement} type="button">Decrement</button>
+      </div>
+    );
+  }
+}
 ```
