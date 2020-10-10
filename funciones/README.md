@@ -86,7 +86,7 @@ var varName = new Function(parametros, 'FunctionBodyStaring');
 ```
 
 
-# Hig-Order Functions
+# 🔥Hig-Order Functions
 
 > una función de orden superior es una función que devuelve una función, Permite probar el estado de manera independiente.
 
