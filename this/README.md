@@ -3,7 +3,7 @@
 El valor de this depende del contexto en el que se use. Por lo tanto, si se usa en una función, su valor dependerá de cómo se invoca esa función, es decir, el sitio de llamada.
 
 ## Enlace implícito(Implicit Binding)
-`CUANDO LA FUNCIÓN ES PARTE DEL OBJETO`
+`CUANDO LA FUNCIÓN ES PARTE DE la clase`
 Cuando usamos la notación punto this es lo que esta a la izquierda(**Regla del punto a la izquierda**)
 
 ```js
