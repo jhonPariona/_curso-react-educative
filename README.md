@@ -28,3 +28,5 @@
 > Una función es un fragmento de código que se define solo una vez, pero que se puede llamar innumerables veces.
 
 > En JavaScript, las funciones son en realidad objetos. Al igual que cualquier objeto típico, también tienen atributos y métodos. Lo único que los diferencia de los objetos es que pueden llamarse
+
+[Funciones en javascript](https://github.com/jhonPariona/_curso-react-educative/tree/main/funciones#funciones)
