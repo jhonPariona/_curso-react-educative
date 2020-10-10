@@ -12,7 +12,7 @@ var myFunction = function()
 myFunction();
 ```
 
-Named function(usan un nombre pdespues de la palabra clave function) pueden ser llamadas incluso antes de ser declaradas. Es más recomendable usar estas ya que ayuda a la identificar más facil en que funcion ocurrio el error.
+🔥 Named function(usan un nombre pdespues de la palabra clave function) pueden ser llamadas incluso antes de ser declaradas. Es más recomendable usar estas ya que ayuda a la identificar más facil en que funcion ocurrio el error.
 ```js
 function myFunction()
 {
@@ -25,7 +25,7 @@ myFunction();
 > Cada tipo de funciones controla como este interactua con los componentes externos, su scope, el contexto,... A continuación se muestras los tipos en javascript
 
  
-## Arrow function
+## 🔥Arrow function
 Sintax sugar, el valor de this apuntara a el mismo, si solo se retorna una cosa se puede omitir `{}` y si solo se pasa un parámetro tambien puede omitir los `()`
 
 ```js
@@ -38,7 +38,7 @@ const getGreetingArrow1 = () => {
 const getGreetingArrow2 = () => 'Welcome to JavaScript';
 ```
 
-## Function Declaration
+## 🔥Function Declaration
 Este método usa hosting es decir que se puede usar antes de declararlo.
 ```js
   fName();
@@ -48,7 +48,7 @@ Este método usa hosting es decir que se puede usar antes de declararlo.
   }
 ```
 
-## Function expression
+## 🔥Function expression
 Tipo más común, se usa cuando quieres usarlo como un retorno y almacenarlo en una variable
 Se debe usar despues de la declaración.
 
