@@ -60,3 +60,21 @@ export default class App extends React.Component {
 
 ## Modulos
 [Modulos](https://github.com/jhonPariona/_curso-react-educative/tree/main/modulos#-modulos)
+
+## COmponentes
+
+>  bloques de construcción que conforman el aspecto de un sitio web y todos los componentes de React deben comenzar con una letra mayúscula
+
+## Props
+
+> argumentos que puedes pasar a una función
+
+## State
+
+> El estado determina el aspecto del componente y puede actualizarlo sobre la marcha, el estado es solo un objeto en un componente de React 
+
+> setState()no actualiza inmediatamente su componente
+
+## Ciclo de vida
+
+> Cada componente de React pasa por un ciclo de vida y los métodos de ciclo de vida son funciones proporcionadas por React a través de las cuales podemos controlar lo que sucede cuando cada pequeña sección de su interfaz de usuario se procesa, actualiza, considera volver a renderizar y luego desaparece por completo.
