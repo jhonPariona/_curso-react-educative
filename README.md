@@ -75,9 +75,13 @@ export default class App extends React.Component {
 
 > El estado determina el aspecto del componente y puede actualizarlo sobre la marcha, el estado es solo un objeto en un componente de React 
 
-> setState()no actualiza inmediatamente su componente
+> setState()no actualiza inmediatamente su componente(Batching)
+
+Llamar setStae dentro del método render genera un bucle. No hacer
 
 ## Ciclo de vida
 [ciclo de vida](https://github.com/jhonPariona/_curso-react-educative/blob/main/ciclo-vida/README.md#ciclo-de-vida)
+
+Objetivo principal es liberar recursos.
 
 > Cada componente de React pasa por un ciclo de vida y los métodos de ciclo de vida son funciones proporcionadas por React a través de las cuales podemos controlar lo que sucede cuando cada pequeña sección de su interfaz de usuario se procesa, actualiza, considera volver a renderizar y luego desaparece por completo.
