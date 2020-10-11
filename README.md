@@ -50,3 +50,7 @@ export default class App extends React.Component {
 
 ## This
 [This](https://github.com/jhonPariona/_curso-react-educative/tree/main/this#this)
+
+## Composición y herencia
+
+[Composicion y herencia](https://github.com/jhonPariona/_curso-react-educative/tree/main/herencia-composicion#herencia)
