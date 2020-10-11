@@ -76,5 +76,6 @@ export default class App extends React.Component {
 > setState()no actualiza inmediatamente su componente
 
 ## Ciclo de vida
+[ciclo de vida](https://github.com/jhonPariona/_curso-react-educative/blob/main/ciclo-vida/README.md#ciclo-de-vida)
 
 > Cada componente de React pasa por un ciclo de vida y los métodos de ciclo de vida son funciones proporcionadas por React a través de las cuales podemos controlar lo que sucede cuando cada pequeña sección de su interfaz de usuario se procesa, actualiza, considera volver a renderizar y luego desaparece por completo.
