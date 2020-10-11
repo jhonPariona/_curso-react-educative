@@ -4,6 +4,8 @@
 
 [⚛️ JavaScript Fundamentals Before Learning React](https://www.educative.io/courses/javascript-fundamentals-before-learning-react)
 
+> React ofrece cierta administración de estado interna, pero aparte de esto, es solo una biblioteca de componentes que procesa HTML para su navegador.
+
 ```jsx
 import React from 'react';
 
