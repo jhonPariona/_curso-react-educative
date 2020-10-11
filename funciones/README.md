@@ -126,3 +126,22 @@ export default class Counter extends React.Component {
   }
 }
 ```
+
+funcion para representar cargando
+
+```jsx
+//mas largo
+const withLoading = Component => ({ isLoading, ...props }) => {
+  if (isLoading) {
+    return <p>Loading</p>;
+  }
+
+  return <Component { ...props } />;
+}
+
+//mas corto
+const withLoading = Component => ({ isLoading, ...props }) =>
+  isLoading
+    ? <p>Loading</p>
+    : <Component { ...props } />
+```
