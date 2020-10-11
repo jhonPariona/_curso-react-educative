@@ -2,7 +2,8 @@
   <img src="assets/imgs/portada.png" alt="portada">
 </h1>
 
-[⚛️ JavaScript Fundamentals Before Learning React](https://www.educative.io/courses/javascript-fundamentals-before-learning-react)
+[⚛️ JavaScript Fundamentals Before Learning React](https://www.educative.io/courses/javascript-fundamentals-before-learning-react) | 
+[⚛ Camino de react con hooks](https://www.educative.io/courses/road-to-react-with-hooks)
 
 > React ofrece cierta administración de estado interna, pero aparte de esto, es solo una biblioteca de componentes que procesa HTML para su navegador.
 
