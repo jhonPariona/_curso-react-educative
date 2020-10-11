@@ -14,13 +14,13 @@ Se usa para inicializar valores(Es mejor usar el constructor) y hacer peticiones
 
 > Como este método se llama una vez después del primer renderizado, es posible que desee inicializar el estado y los accesorios que se requerirán en el DOM. En este momento, se puede solicitar información al servidor.
 
-## componentDidUpdate()
+## 🔥componentDidUpdate()
 
 Cuando se actualiza un componente
 
 > puede usar este método para enviar solicitudes al servidor para cualquier actualización en el estado o accesorios del componente que se requieren para DOM.
 
-## componentWillUnmount()
+## 🔥componentWillUnmount()
 
 Cuando el componente se eleimina del DOM
 
