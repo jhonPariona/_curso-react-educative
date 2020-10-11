@@ -65,7 +65,7 @@ export default class App extends React.Component {
 
 >  bloques de construcción que conforman el aspecto de un sitio web y todos los componentes de React deben comenzar con una letra mayúscula
 
-[Componentes de clase]()
+[Componentes de clase](https://github.com/jhonPariona/_curso-react-educative/tree/main/componentes#componentes)
 
 ## Props
 
